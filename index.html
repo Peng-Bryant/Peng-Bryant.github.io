@@ -93,11 +93,21 @@
             </tbody>
           </table>
 
-          <hr class="hr-edge-weak">
-
-          <br>
-          <br>
           <table>
+            <tr>
+              <style>
+                .topic-text {
+                  font-weight: bold;
+                  font-size: 30px;
+                  font-family: Georgia, serif;
+                  text-align: center;
+                }
+              </style>
+
+              <!--<p class="topic-text">Get to Know Me</p>   -->
+            </tr>
+
+
             <tr>
 
               <head>
@@ -107,7 +117,7 @@
                   #slideshow {
                     position: relative;
                     height: 400px;
-                    width:700px;
+                    width: 700px;
                     overflow: hidden;
                     text-align: center;
                     margin: 0 auto;
@@ -128,48 +138,126 @@
                   .slide img {
                     display: block;
                     width: 100%;
-                    height: 0 auto;
+                    height: 100%;
                   }
 
                   .slide h3 {
-                    margin-top: 10px;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    width: 100%;
+                    margin: 0;
+                    padding: 10px;
+                    background-color: rgba(0, 0, 0, 0.5);
+                    color: #fff;
                     font-size: 20px;
-                    text-align: center;
+                    text-align: left;
+                    box-sizing: border-box;
                   }
 
-                  .prev, .next {
+
+                  .prev,
+                  .next {
                     position: absolute;
                     top: 50%;
                     transform: translateY(-50%);
                     cursor: pointer;
                   }
+
                   .prev {
                     left: 10px;
                   }
+
                   .next {
                     right: 10px;
                   }
-
                 </style>
               </head>
 
               <tbody>
+
                 <div id="slideshow">
+                  <!--领奖照片-->
+                  <div class="slide">
+                    <img src="photograph/L8.jpg" alt="Image 11">
+                    <h3>On stage, I accepted the award "Excellent student" as an outstanding representative.</h3>
+                  </div>
+
+                  <!--我的生活照-->
+                  <div class="slide">
+                    <img src="photograph/L1.jpg" alt="Image 4">
+                    <h3>Hi~</h3>
+                  </div>
+
+                  <!--talk on climate change-->
                   <div class="slide active">
-                    <img src="r_p/Pan/density1.png" alt="Image 1">
-                    <h3>疫情模拟器</h3>
+                    <img src="photograph/A1.png" alt="Image 1">
+                    <h3>I gave a talk on climate change with the aim of raising awareness and
+                      inspiring even the slightest tangible actions among individuals. The talk received widespread
+                      acclaim and recognition. </h3>
+                  </div>
+
+                  <!--harvard-->
+                  <div class="slide">
+                    <img src="photograph/A2.jpg" alt="Image 2">
+                    <h3>A wonderful conversation with Professor A. Simmons on the topic of
+                      the Philosophy of Perception and Knowledge at Harvard University! Afterward, we took a photo
+                      together.</h3>
                   </div>
                   <div class="slide">
-                    <img src="r_p/Dog/Quadrupped.PNG" alt="Image 2">
-                    <h3>123123</h3>
+                    <img src="photograph/A3.jpg" alt="Image 3">
+                    <h3>This is a photo of me and Professor H.Georgi together,
+                      taken after having a conversation about "the particle symmetry problem in the Big Bang" at
+                      Harvard. </h3>
+                  </div>
+
+                  <!--元旦晚会-->
+                  <div class="slide">
+                    <img src="photograph/L2.jpg" alt="Image 5">
+                    <h3>Unforgettable Moment: This is me, on the stage of New Year's Eve, standing alongside
+                      a group of like-minded friends who share my passion. </h3>
                   </div>
                   <div class="slide">
-                    <img src="r_p/Pan/Pan_surface.png" alt="Image 3">
-                    <h3>124213</h3>
+                    <img src="photograph/L4.jpg" alt="Image 7">
+                    <h3>Unforgettable Moment: This is me, on the stage of New Year's Eve, standing alongside
+                      a group of like-minded friends who share my passion.</h3>
+                  </div>
+
+                  <!--演讲冠军-->
+                  <div class="slide">
+                    <img src="photograph/L5.jpg" alt="Image 8">
+                    <h3>I won the champion of the Speech Final!</h3>
                   </div>
                   <div class="slide">
-                    <img src="r_p/Pan/interfere.png" alt="Image 4">
-                    <h3>234234</h3>
+                    <img src="photograph/L3.jpg" alt="Image 6">
+                    <h3>Champion Night with my dear friends!</h3>
+                  </div>
+
+                  <!--篮球-->
+                  <div class="slide">
+                    <img src="photograph/L6.jpg" alt="Image 9">
+                    <h3>This is me playing basketball. I have always admired Kobe Bryant and his 'Black Mamba Spirit' !
+                    </h3>
+                  </div>
+
+                  <!--星空-->
+                  <div class="slide">
+                    <img src="photograph/L7.jpg" alt="Image 10">
+                    <h3>This photo was taken by me at HIT Square,
+                      with the title 'Star Trails & Heart Trails'.
+                      I am always captivated by the starry night and the infinite universe.</h3>
+                  </div>
+
+
+                  <!--工程project-->
+                  <div class="slide">
+                    <img src="photograph/P1.jpg" alt="Image 12">
+                    <h3>My beloved babies!
+                      They have witnessed countless nights of hard work and dedication, and I cherish them deeply.</h3>
+                  </div>
+                  <div class="slide">
+                    <img src="photograph/P2.jpg" alt="Image 13">
+                    <h3>Testing and debugging for visual alignment</h3>
                   </div>
 
                   <div class="prev">&#10094;</div>
@@ -180,37 +268,37 @@
                 <script>
                   var slides = document.querySelectorAll('#slideshow .slide');
                   var currentSlide = 0;
-                  var slideInterval = setInterval(nextSlide, 1500);
-              
+                  var slideInterval = setInterval(nextSlide, 1800);
+
                   function nextSlide() {
                     slides[currentSlide].className = 'slide';
                     currentSlide = (currentSlide + 1) % slides.length;
                     slides[currentSlide].className = 'slide active';
                   }
-              
+
                   function prevSlide() {
                     slides[currentSlide].className = 'slide';
                     currentSlide = (currentSlide - 1 + slides.length) % slides.length;
                     slides[currentSlide].className = 'slide active';
                   }
-              
+
                   var slideshow = document.getElementById('slideshow');
-                  slideshow.addEventListener('mouseover', function() {
+                  slideshow.addEventListener('mouseover', function () {
                     clearInterval(slideInterval);
                   });
-              
-                  slideshow.addEventListener('mouseout', function() {
+
+                  slideshow.addEventListener('mouseout', function () {
                     slideInterval = setInterval(nextSlide, 5000);
                   });
-              
+
                   var prevButton = document.querySelector('.prev');
-                  prevButton.addEventListener('click', function() {
+                  prevButton.addEventListener('click', function () {
                     prevSlide();
                     clearInterval(slideInterval);
                   });
-              
+
                   var nextButton = document.querySelector('.next');
-                  nextButton.addEventListener('click', function() {
+                  nextButton.addEventListener('click', function () {
                     nextSlide();
                     clearInterval(slideInterval);
                   });
@@ -218,8 +306,11 @@
               </tbody>
 
 
-            </tr>>
+            </tr>
           </table>
+          <br>
+
+
 
           <hr class="hr-edge-weak">
 
