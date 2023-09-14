@@ -12,7 +12,7 @@
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
 
   <link rel="icon" href="icon.png">
- <!-- <style>
+  <!-- <style>
 		body {
 			background-color: #ffffff;
 		}
@@ -65,10 +65,16 @@
                 </td>
                 <td style="padding:2.5%;width:67%;vertical-align:middle">
                   <p>
-                    I am a sophomore at   <a href="https://www.hitsz.edu.cn/">Harbin Institute of Technology, shenzhen</a>,
-                    majoring in Automation. Successfully maintaining a GPA of 95.44/100 ,
+                    I am a junior student at <strong>Harbin Institute of Technology, shenzhen(HITSZ)</strong>,majoring
+                    in <strong>Automation</strong>. Currently, I am
+                    an exchange student in Robotics at <strong>University of California, San Diego(UCSD)</strong>.
+                    Previously, I was advised by
+                    <a href="https://scholar.google.com/citations?hl=zh-CN&user=Dhnz264AAAAJ">Xiaogang Xiong</a> with
+                    some amazing works(see as follows).
+
+                    <!--Successfully maintaining a GPA of 95.44/100 ,
                     I place as the second-ranked student among the 256 enrolled in my major, with several academic
-                    scholarship awarded, including the National Scholarship.
+                    scholarship awarded, including the National Scholarship.-->
                   </p>
                   <p>
                     As an inquisitive individual with an insatiable thirst for scientific inquiry, I thoroughly relish
@@ -99,6 +105,405 @@
             </tbody>
           </table>
 
+
+
+          <br>
+          <hr class="hr-edge-weak">
+
+          <!-- ======= Reseach Intro Section ======= -->
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:20px;width:100%;vertical-align:middle">
+                  <heading>Research</heading>
+
+                  <p style="margin:15px 0 -5px 0px;">
+                    My current research interest lies in the intersection of deep reinforcement learning, computer
+                    vision and robotics.
+                    My long-term goal is to develop intelligent robots that can infer and interact with the dynamic and
+                    open world in
+                    long-horizon tasks.
+              </tr>
+            </tbody>
+          </table>
+
+          <!-- ======= Reseach Item Section ======= -->
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+
+              <!--Tac-->
+              <tr onmouseout="Tac_stop()" onmouseover="Tac_start()">
+                <td style="padding:20px;width:30%;vertical-align:middle">
+                  <div class="one">
+
+                    <div class="two" id='R_P/Tac/1.jpg'
+                      style="width:100%; height:100%; max-width:100%">
+                      <img src='R_P/Tac/1.jpg' style="width:100%; height:100%; max-width:100%">
+                    </div>
+
+                    <img src='R_P/Tac/2.gif' style="width:100%; height:100%; max-width:100%">
+
+                  </div>
+                  <script type="text/javascript">
+                    function Tac_start() {
+                      document.getElementById('R_P/Tac/1.jpg').style.opacity = "0";
+                    }
+                    function Tac_stop() {
+                      document.getElementById('R_P/Tac/1.jpg').style.opacity = "1";
+                    }
+                    Tac_stop()
+                  </script>
+                </td>
+
+                <td style="padding: 20px; width: 70%; vertical-align: middle;">
+                  <papertitle style="font-size: 18px; font-weight: bold; margin: 5px 0;">
+                    Semi-supervised Sim2real of Tactile Control Policies for Contact-Rich Manipulation Tasks
+                  </papertitle>
+                  <p style="font-size: 15px; margin: 4px 0;">
+                    Qiwei Wu*, <strong>Xuanbin Peng</strong>*, Jiayu Zhou, Zhouran SUn, Xiaogang Xiong and
+                    Yunjiang Lou
+                  </p>
+                  <p style="font-size: 16px; margin: 2px 0;">
+                    <em>IEEE International Conference on Robotics and Automation (ICRA), 2024</em>
+                  </p>
+                  <!--
+                  <a href="https://ieeexplore.ieee.org/document/9159003">arXiv</a>
+                  -->
+                  <p style="font-size: 15px; margin: 2px 0;">
+                    Submitted for Review
+                  </p>
+                </td>
+
+              </tr>
+
+              <!--compliant-->
+              <tr onmouseout="Dc_stop()" onmouseover="Dc_start()">
+                <td style="padding:20px;width:30%;vertical-align:middle">
+                  <div class="one">
+
+                    <div class="two" id='R_P/Dog_Compliant/dummy_self.jpg'
+                      style="width:100%; height:100%; max-width:100%">
+                      <img src='R_P/Dog_Compliant/dummy_self.jpg' style="width:100%; height:100%; max-width:100%">
+                    </div>
+
+                    <img src='R_P/Dog_Compliant/1.gif' style="width:100%; height:100%; max-width:100%">
+
+                  </div>
+                  <script type="text/javascript">
+                    function Dc_start() {
+                      document.getElementById('R_P/Dog_Compliant/dummy_self.jpg').style.opacity = "0";
+                    }
+                    function Dc_stop() {
+                      document.getElementById('R_P/Dog_Compliant/dummy_self.jpg').style.opacity = "1";
+                    }
+                    Dc_stop()
+                  </script>
+                </td>
+
+                <td style="padding: 20px; width: 70%; vertical-align: middle;">
+                  <papertitle style="font-size: 18px; font-weight: bold; margin: 5px 0;">
+                    Whole-body Compliant Control for Quadruped Manipulator with Torque Saturation
+                  </papertitle>
+                  <p style="font-size: 15px; margin: 4px 0;">
+                    Tianlin Zhang, <strong>Xuanbin Peng</strong>, Sikai Guo, Xiaogang Xiong, Yang Bai, Ke Li, and
+                    Yunjiang Lou
+                  </p>
+                  <p style="font-size: 16px; margin: 2px 0;">
+                    <em>IEEE Robotics and Automation Letters (RA-L), 2023</em>
+                  </p>
+                  <!--
+                  <a href="https://ieeexplore.ieee.org/document/9159003">arXiv</a>
+                  -->
+                  <p style="font-size: 15px; margin: 2px 0;">
+                    Submitted for Review
+                  </p>
+                </td>
+
+              </tr>
+
+            </tbody>
+
+
+          </table>
+
+
+
+          <hr class="hr-edge-weak">
+          <!-- ======= Project Intro Section ======= -->
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:20px;width:100%;vertical-align:middle">
+                  <heading>Selected Projects</heading>
+              </tr>
+            </tbody>
+          </table>
+
+          <!-- ======= Reseach Items Section ======= -->
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+
+
+              <tr onmouseout="RM2_stop()" onmouseover="RM2_start()">
+                <td style="padding:20px;width:30%;vertical-align:middle">
+                  <div class="one">
+
+                    <div class="two" id='R_P/RM/RM_UAV.PNG' style="width:100%; height:100%; max-width:100%">
+                      <img src='R_P/RM/RM_UAV.PNG' style="width:100%; height:100%; max-width:100%">
+                    </div>
+
+                    <img src='R_P/RM/RM_UAV.gif' style="width:100%; height:100%; max-width:100%">
+
+                  </div>
+                  <script type="text/javascript">
+                    function RM2_start() {
+                      document.getElementById('R_P/RM/RM_UAV.PNG').style.opacity = "0";
+                    }
+                    function RM2_stop() {
+                      document.getElementById('R_P/RM/RM_UAV.PNG').style.opacity = "1";
+                    }
+                    RM2_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:70%;vertical-align:middle">
+
+                  <papertitle>Development of a Vision-Guided Autonomous UAV for Precision Targeting and Shooting of
+                    Moving Objects</papertitle>
+
+
+                  <p style="margin:5px 0 5px 0px;font-size: 15px">
+                    1. High-speed flight capabilities for fast moving objects targeting.</br>
+                    2. Vision-based automatic aiming and tracking system with high accuracy and robustness against
+                    interference.</br>
+                    3. Adaptive control algorithms for improved resilience and adaptability during flight and shooting
+                    operations.</br>
+                  </p>
+
+                </td>
+              </tr>
+
+              <tr onmouseout="RM1_stop()" onmouseover="RM1_start()">
+                <td style="padding:20px;width:30%;vertical-align:middle">
+                  <div class="one">
+
+                    <div class="two" id='R_P/RM/RM_Engineer.JPG' style="width:100%; height:100%; max-width:100%">
+                      <img src='R_P/RM/RM_Engineer.JPG' style="width:100%; height:100%; max-width:100%">
+                    </div>
+
+                    <img src='R_P/RM/RM_Engineer.gif' style="width:100%; height:100%; max-width:100%">
+
+                  </div>
+                  <script type="text/javascript">
+                    function RM1_start() {
+                      document.getElementById('R_P/RM/RM_Engineer.JPG').style.opacity = "0";
+                    }
+                    function RM1_stop() {
+                      document.getElementById('R_P/RM/RM_Engineer.JPG').style.opacity = "1";
+                    }
+                    RM1_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:70%;vertical-align:middle">
+
+                  <papertitle>A Versatile Mobile Robot With a Visual-aided Suction Gripper for Object Transport
+                  </papertitle>
+                  <p style="margin:5px 0 5px 0px;font-size:15px">
+                    This Project won the Second Prize in RoboMaster2022 Engineering-Mining-Challenge.</br>
+                    1. Three-DOF suction gripper: Enhanced grasping flexibility and precision.</br>
+                    2. Multifunctionality: Versatile robot for various tasks and industries.</br>
+                    3. Vision-based alignment: Improved accuracy and efficiency in positioning.</br>
+                  </p>
+
+                </td>
+              </tr>
+
+              <!--              <tr onmouseout="dog_stop()" onmouseover="dog_start()">
+                <td style="padding:20px;width:30%;vertical-align:middle">
+                  <div class="one">
+
+                    <div class="two" id='R_P/Dog/Quadrupped.png' style="width:100%; height:100%; max-width:100%">
+                      <img src='R_P/Dog/Quadrupped.PNG' style="width:100%; height:100%; max-width:100%">
+                    </div>
+
+                    <img src='R_P/Dog/Quadrupped.gif' style="width:100%; height:100%; max-width:100%">
+
+                  </div>
+                  <script type="text/javascript">
+                    function dog_start() {
+                      document.getElementById('R_P/Dog/Quadrupped.png').style.opacity = "0";
+                    }
+                    function dog_stop() {
+                      document.getElementById('R_P/Dog/Quadrupped.png').style.opacity = "1";
+                    }
+                    dog_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:70%;vertical-align:middle">
+                  
+                  <papertitle>Image-Based Visual Servoing for Tracking Dynamic Objects with Unknown Velocities using a
+                    Quadruped Manipulator
+                  </papertitle>
+
+                  <p style="margin:5px 0 5px 0px;font-size: 15px">
+                    1. Decoupling visual error into linear/angular components with spherical projection model.</br>
+                    2. Robust super-twisting observer for dynamic object velocities estimation without depth
+                    information.</br>
+                    3. Model Predictive Controller joint torques control for quadruped manipulator to track dynamic
+                    targets.</br>
+                  </p>
+
+                </td>
+              </tr>-->
+
+              <tr onmouseout="Pan_stop()" onmouseover="Pan_start()">
+                <td style="padding:20px;width:30%;vertical-align:middle">
+                  <div class="one">
+
+                    <div class="two" id='R_P/Pan/Pan_surface.png' style="width:100%; height:100%; max-width:100%">
+                      <img src='R_P/Pan/Pan_surface.png' style="width:100%; height:100%; max-width:100%">
+                    </div>
+
+                    <img src='R_P/Pan/Pandemic_simulator.gif' style="width:100%; height:100%; max-width:100%">
+
+                  </div>
+                  <script type="text/javascript">
+                    function Pan_start() {
+                      document.getElementById('R_P/Pan/Pan_surface.png').style.opacity = "0";
+                    }
+
+                    function Pan_stop() {
+                      document.getElementById('R_P/Pan/Pan_surface.png').style.opacity = "1";
+                    }
+                    Pan_stop()
+                  </script>
+                </td>
+
+                <td style="padding:20px;width:70%;vertical-align:middle">
+
+                  <papertitle>Visualizing Pandemic Simulator: A Graphical User Interface for Simulating and Analyzing
+                    Epidemic Dynamics</papertitle>
+
+                  <p style="margin:5px 0 5px 0px;font-size:15px">
+                    This project is developed by C++ and EasyX to visualize epidemic spread with analysis of the effects
+                    of various factors using Control Variable Method.</br>
+                    1. Interactive visualization interface.</br>
+                    2. Improved population modeling using a normal distribution model.</br>
+                    3. Optimized simulation performance with quadtree collision detection algorithm.</br>
+                  </p>
+
+                </td>
+              </tr>
+
+              <tr onmouseout="RM3_stop()" onmouseover="RM3_start()">
+                <td style="padding:20px;width:30%;vertical-align:middle">
+                  <div class="one">
+
+                    <div class="two" id='R_P/RM/RM_BL.PNG' style="width:100%; height:100%; max-width:100%">
+                      <img src='R_P/RM/RM_BL.PNG' style="width:100%; height:100%; max-width:100%">
+                    </div>
+
+                    <img src='R_P/RM/RM_BL_.gif' style="width:100%; height:100%; max-width:100%">
+
+                  </div>
+                  <script type="text/javascript">
+                    function RM3_start() {
+                      document.getElementById('R_P/RM/RM_BL.PNG').style.opacity = "0";
+                    }
+                    function RM3_stop() {
+                      document.getElementById('R_P/RM/RM_BL.PNG').style.opacity = "1";
+                    }
+                    RM3_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:70%;vertical-align:middle">
+
+                  <papertitle>Design and Control of a Hybrid Legged-Wheeled Robot for Enhanced Terrain Adaptation and
+                    Efficiency Based on LQR Control</papertitle>
+
+                  <p style="margin:5px 0 5px 0px;font-size: 15px">
+                    1. Hybrid legged-wheeled robot design for improved mobility and terrain adaptability.</br>
+                    2. Integration of LQR and VMC control methods for enhanced control performance.</br>
+                    3. Optimization of robot parameters for optimal efficiency and robustness.</br>
+                  </p>
+
+                </td>
+              </tr>
+
+            </tbody>
+          </table>
+
+
+
+          <br>
+          <br>
+
+          <!--奖项-->
+          <hr class="hr-edge-weak">
+
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:20px;width:100%;vertical-align:middle">
+                  <heading> Selected Awards and Honors</heading>
+
+                  <!--<h3 style="margin:15px 0 5px 0px;">Journal Reviewer:</h3> -->
+                  <br>
+
+                  <style>
+                    li {
+                      margin: 10px 0;
+                      display: flex;
+                      align-items: center;
+                    }
+
+                    li::before {
+                      content: "●";
+                      font-weight: bold;
+                      margin-right: 10px;
+                      font-size: 16px;
+                      color: black;
+                    }
+
+                    li span:first-child {
+                      flex: 1;
+                    }
+
+                    li span:last-child {
+                      margin-left: 10px;
+                    }
+                  </style>
+
+                  <ul>
+                    <li><span>National Scholarship.(Ranking <strong>1st-0.3%</strong>)</span><span>2022</span></li>
+                    <li><span>National First Prize in RoboMaster2022 Robotics Contest.</span><span>2022</span></li>
+                    <!--<li><span>National Second Prize in RoboMaster2022
+                        Engineering-Mining-Challenge.</span><span>2022</span></li>-->
+
+                    <li><span>Fisrt-Class Undergraduate Acadamic Scholarship*2.(Ranking <strong>1st-0.3%</strong>)</span><span>2021-2023</span></li>
+
+                    <!--<li><span>Pacemaker to Merit Student.</span><span>2022</span></li>-->
+                    <!--<li><span>Excellent League Member.</span><span>2022</span></li>-->
+                    <li><span>Excellent Student*2.</span><span>2022-2023</span></li>
+                    <!--<li><span>"Mechatronics Orator" Speech Contest, <strong>Champion</strong></span><span>2022</span>
+                    </li>-->
+                    <!-- 在这里添加更多奖项和时间 -->
+                  </ul>
+              </tr>
+
+            </tbody>
+          </table>
+
+          <br>
+          <!--cut-->
+          <hr class="hr-edge-weak">
+          <br>
+
+          <!--###############################################slide_show-->
           <table>
             <tr>
               <style>
@@ -248,17 +653,17 @@
                   <div class="slide">
                     <img src="photograph/L7.jpg" alt="Image 10">
                     <h3>This photo was taken by me at HIT Square,
-                      with the title 'Star Trails & Heart Trails'. 
+                      with the title 'Star Trails & Heart Trails'.
                       I am always captivated by the starry night and the infinite universe.</h3>
                   </div>
 
                   <!--领奖照片
-                  <div class="slide">
-                    <img src="photograph/L8.jpg" alt="Image 11">
-                    <h3>During the ceremony, 
-                      I was honored to receive the "Excellent Student" award as an outstanding representative.</h3>
-                  </div>
-                  -->
+        <div class="slide">
+          <img src="photograph/L8.jpg" alt="Image 11">
+          <h3>During the ceremony, 
+            I was honored to receive the "Excellent Student" award as an outstanding representative.</h3>
+        </div>
+        -->
 
                   <!--工程project-->
                   <div class="slide">
@@ -319,286 +724,10 @@
 
             </tr>
           </table>
+          <!--###############################################slide_show_end-->
           <br>
-
-
-
           <hr class="hr-edge-weak">
-
-          <!-- ======= Reseach Intro Section ======= -->
-          <table
-            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-            <tbody>
-              <tr>
-                <td style="padding:20px;width:100%;vertical-align:middle">
-                  <heading>Research Experience and Selected Projects</heading>
-
-                  <p style="margin:15px 0 -5px 0px;">
-                    My current research and project topics cover motion planning, assistive robotics, and autonomous
-                    system design. My long-term research
-                    goal is to develop intelligent robots that can infer and interact with the dynamic and open world in
-                    long-horizon tasks.
-              </tr>
-            </tbody>
-          </table>
-
-          <!-- ======= Reseach Items Section ======= -->
-          <table
-            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-            <tbody>
-
-
-              <tr onmouseout="RM2_stop()" onmouseover="RM2_start()">
-                <td style="padding:20px;width:30%;vertical-align:middle">
-                  <div class="one">
-
-                    <div class="two" id='R_P/RM/RM_UAV.PNG' style="width:100%; height:100%; max-width:100%">
-                      <img src='R_P/RM/RM_UAV.PNG' style="width:100%; height:100%; max-width:100%">
-                    </div>
-
-                    <img src='R_P/RM/RM_UAV.gif' style="width:100%; height:100%; max-width:100%">
-
-                  </div>
-                  <script type="text/javascript">
-                    function RM2_start() {
-                      document.getElementById('R_P/RM/RM_UAV.PNG').style.opacity = "0";
-                    }
-                    function RM2_stop() {
-                      document.getElementById('R_P/RM/RM_UAV.PNG').style.opacity = "1";
-                    }
-                    RM2_stop()
-                  </script>
-                </td>
-                <td style="padding:20px;width:70%;vertical-align:middle">
-
-                  <papertitle>Development of a Vision-Guided Autonomous UAV for Precision Targeting and Shooting of
-                    Moving Objects</papertitle>
-
-
-                  <p style="margin:5px 0 5px 0px;font-size: 15px">
-                    1. High-speed flight capabilities for fast moving objects targeting.</br>
-                    2. Vision-based automatic aiming and tracking system with high accuracy and robustness against
-                    interference.</br>
-                    3. Adaptive control algorithms for improved resilience and adaptability during flight and shooting
-                    operations.</br>
-                  </p>
-
-                </td>
-              </tr>
-
-              <tr onmouseout="RM1_stop()" onmouseover="RM1_start()">
-                <td style="padding:20px;width:30%;vertical-align:middle">
-                  <div class="one">
-
-                    <div class="two" id='R_P/RM/RM_Engineer.JPG' style="width:100%; height:100%; max-width:100%">
-                      <img src='R_P/RM/RM_Engineer.JPG' style="width:100%; height:100%; max-width:100%">
-                    </div>
-
-                    <img src='R_P/RM/RM_Engineer.gif' style="width:100%; height:100%; max-width:100%">
-
-                  </div>
-                  <script type="text/javascript">
-                    function RM1_start() {
-                      document.getElementById('R_P/RM/RM_Engineer.JPG').style.opacity = "0";
-                    }
-                    function RM1_stop() {
-                      document.getElementById('R_P/RM/RM_Engineer.JPG').style.opacity = "1";
-                    }
-                    RM1_stop()
-                  </script>
-                </td>
-                <td style="padding:20px;width:70%;vertical-align:middle">
-
-                  <papertitle>A Versatile Mobile Robot With a Visual-aided Suction Gripper for Object Transport
-                  </papertitle>
-                  <p style="margin:5px 0 5px 0px;font-size:15px">
-                    This Project won the Second Prize in RoboMaster2022 Engineering-Mining-Challenge.</br>
-                    1. Three-DOF suction gripper: Enhanced grasping flexibility and precision.</br>
-                    2. Multifunctionality: Versatile robot for various tasks and industries.</br>
-                    3. Vision-based alignment: Improved accuracy and efficiency in positioning.</br>
-                  </p>
-
-                </td>
-              </tr>
-
-
-              <tr onmouseout="dog_stop()" onmouseover="dog_start()">
-                <td style="padding:20px;width:30%;vertical-align:middle">
-                  <div class="one">
-
-                    <div class="two" id='R_P/Dog/Quadrupped.png' style="width:100%; height:100%; max-width:100%">
-                      <img src='R_P/Dog/Quadrupped.PNG' style="width:100%; height:100%; max-width:100%">
-                    </div>
-
-                    <img src='R_P/Dog/Quadrupped.gif' style="width:100%; height:100%; max-width:100%">
-
-                  </div>
-                  <script type="text/javascript">
-                    function dog_start() {
-                      document.getElementById('R_P/Dog/Quadrupped.png').style.opacity = "0";
-                    }
-                    function dog_stop() {
-                      document.getElementById('R_P/Dog/Quadrupped.png').style.opacity = "1";
-                    }
-                    dog_stop()
-                  </script>
-                </td>
-                <td style="padding:20px;width:70%;vertical-align:middle">
-                  <!--Robot Manipulator (To be Replaced)-->
-                  <papertitle>Image-Based Visual Servoing for Tracking Dynamic Objects with Unknown Velocities using a
-                    Quadruped Manipulator
-                  </papertitle>
-
-                  <p style="margin:5px 0 5px 0px;font-size: 15px">
-                    1. Decoupling visual error into linear/angular components with spherical projection model.</br>
-                    2. Robust super-twisting observer for dynamic object velocities estimation without depth
-                    information.</br>
-                    3. Model Predictive Controller joint torques control for quadruped manipulator to track dynamic
-                    targets.</br>
-                  </p>
-
-                </td>
-              </tr>
-
-              <tr onmouseout="Pan_stop()" onmouseover="Pan_start()">
-                <td style="padding:20px;width:30%;vertical-align:middle">
-                  <div class="one">
-
-                    <div class="two" id='R_P/Pan/Pan_surface.png' style="width:100%; height:100%; max-width:100%">
-                      <img src='R_P/Pan/Pan_surface.png' style="width:100%; height:100%; max-width:100%">
-                    </div>
-
-                    <img src='R_P/Pan/Pandemic_simulator.gif' style="width:100%; height:100%; max-width:100%">
-
-                  </div>
-                  <script type="text/javascript">
-                    function Pan_start() {
-                      document.getElementById('R_P/Pan/Pan_surface.png').style.opacity = "0";
-                    }
-
-                    function Pan_stop() {
-                      document.getElementById('R_P/Pan/Pan_surface.png').style.opacity = "1";
-                    }
-                    Pan_stop()
-                  </script>
-                </td>
-
-                <td style="padding:20px;width:70%;vertical-align:middle">
-
-                  <papertitle>Visualizing Pandemic Simulator: A Graphical User Interface for Simulating and Analyzing
-                    Epidemic Dynamics</papertitle>
-
-                  <p style="margin:5px 0 5px 0px;font-size:15px">
-                    This project is developed by C++ and EasyX to visualize epidemic spread with analysis of the effects
-                    of various factors using Control Variable Method.</br>
-                    1. Interactive visualization interface.</br>
-                    2. Improved population modeling using a normal distribution model.</br>
-                    3. Optimized simulation performance with quadtree collision detection algorithm.</br>
-                  </p>
-
-                </td>
-              </tr>
-
-              <tr onmouseout="RM3_stop()" onmouseover="RM3_start()">
-                <td style="padding:20px;width:30%;vertical-align:middle">
-                  <div class="one">
-
-                    <div class="two" id='R_P/RM/RM_BL.PNG' style="width:100%; height:100%; max-width:100%">
-                      <img src='R_P/RM/RM_BL.PNG' style="width:100%; height:100%; max-width:100%">
-                    </div>
-
-                    <img src='R_P/RM/RM_BL_.gif' style="width:100%; height:100%; max-width:100%">
-
-                  </div>
-                  <script type="text/javascript">
-                    function RM3_start() {
-                      document.getElementById('R_P/RM/RM_BL.PNG').style.opacity = "0";
-                    }
-                    function RM3_stop() {
-                      document.getElementById('R_P/RM/RM_BL.PNG').style.opacity = "1";
-                    }
-                    RM3_stop()
-                  </script>
-                </td>
-                <td style="padding:20px;width:70%;vertical-align:middle">
-
-                  <papertitle>Design and Control of a Hybrid Legged-Wheeled Robot for Enhanced Terrain Adaptation and
-                    Efficiency Based on LQR Control</papertitle>
-
-                  <p style="margin:5px 0 5px 0px;font-size: 15px">
-                    1. Hybrid legged-wheeled robot design for improved mobility and terrain adaptability.</br>
-                    2. Integration of LQR and VMC control methods for enhanced control performance.</br>
-                    3. Optimization of robot parameters for optimal efficiency and robustness.</br>
-                  </p>
-
-                </td>
-              </tr>
-
-            </tbody>
-          </table>
-
-
-
           <br>
-          <br>
-
-          <!--奖项-->
-          <hr class="hr-edge-weak">
-
-          <table
-            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-            <tbody>
-              <tr>
-                <td style="padding:20px;width:100%;vertical-align:middle">
-                  <heading> Selected Awards and Honors</heading>
-
-                  <!--<h3 style="margin:15px 0 5px 0px;">Journal Reviewer:</h3> -->
-                  <br>
-
-                  <style>
-                    li {
-                      margin: 10px 0;
-                      display: flex;
-                      align-items: center;
-                    }
-
-                    li::before {
-                      content: "●";
-                      font-weight: bold;
-                      margin-right: 10px;
-                      font-size: 16px;
-                      color: black;
-                    }
-
-                    li span:first-child {
-                      flex: 1;
-                    }
-
-                    li span:last-child {
-                      margin-left: 10px;
-                    }
-                  </style>
-
-                  <ul>
-                    <li><span>National Scholarship.</span><span>2022</span></li>
-                    <li><span>National First Prize in RoboMaster2022 Robotics Contest.</span><span>2022</span></li>
-                    <li><span>National Second Prize in RoboMaster2022 Engineering-Mining-Challenge.</span><span>2022</span></li>
-                    <li><span>Fisrt-Class Undergraduate Acadamic Scholarship. (Ranking <strong>1st</strong> in
-                        Comprehensive Evaluation)</span><span>2021-2022</span></li>
-                    <li><span>Pacemaker to Merit Student.</span><span>2022</span></li>
-                    <li><span>Excellent League Member.</span><span>2022</span></li>
-                    <li><span>Excellent Student.</span><span>2023</span></li>
-                    <li><span>"Mechatronics Orator" Speech Contest, <strong>Champion</strong></span><span>2022</span></li>
-                    <!-- 在这里添加更多奖项和时间 -->
-                  </ul>
-              </tr>
-
-            </tbody>
-          </table>
-
-          <br>
-<!--cut-->
-          <hr class="hr-edge-weak">
           <!-- ======= Credit Section ======= -->
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
@@ -609,9 +738,8 @@
                   <!-- <br> -->
 
                   <p style="text-align:left;font-size:14px;">
-                    Modified version of template from <a style="font-size:14px ;"
-                      href="https://jonbarron.info/">Jon</a> and <a style="font-size:14px ;"
-                      href="https://anxingxiao.com/">AnXing Xiao</a>
+                    Modified version of template from <a style="font-size:14px ;" href="https://jonbarron.info/">Jon</a>
+                    and <a style="font-size:14px ;" href="https://anxingxiao.com/">AnXing Xiao</a>
                     <span style="float:right;">
                       Last updated: 08 May 2023
                     </span>
